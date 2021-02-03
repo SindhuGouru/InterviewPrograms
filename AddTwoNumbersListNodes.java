@@ -1,10 +1,12 @@
 
 public class AddTwoNumbersListNodes {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+
              ListNode prev = null;
              ListNode root = null;
                 String s="",s1="";
                 int sum=0,r;
+                int a=0;
                 while(l1 != null){
                     s += l1.val;
                     l1 = l1.next;
